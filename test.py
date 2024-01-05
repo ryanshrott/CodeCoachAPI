@@ -2,7 +2,7 @@ import requests
 import json
 
 # Define the base URL where your FastAPI application is running
-base_url = "http://0.0.0.0:8000"
+base_url = "https://fastapi-production-7d7b.up.railway.app/"
 
 # Define the headers for a JSON post request
 headers = {
