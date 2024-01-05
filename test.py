@@ -2,7 +2,7 @@ import requests
 import json
 
 # Define the base URL where your FastAPI application is running
-base_url = "https://fastapi-production-7d7b.up.railway.app/"
+base_url = "https://fastapi-production-7d7b.up.railway.app"
 
 # Define the headers for a JSON post request
 headers = {
@@ -13,7 +13,7 @@ headers = {
 sample_prompt = {
     "message": "Bob: Write code to sort a list in C++",
     "model": "mistralai/Mixtral-8x7B-Instruct-v0.1", # Replace with your desired model
-    "use_openai": False  # Set to False to use Anyscale
+    "use_openai": "False"  # Set to False to use Anyscale
 }
 # Test the /prompt endpoint
 def test_prompt():
